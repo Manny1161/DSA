@@ -1,0 +1,42 @@
+Within my DSAsorts file I used the inbuilt python
+'timeit' module to measure the run times of the
+seperate sorting algorithms. The execution times 
+for each sorting algorithm varied with different 
+parameters utilised. I used 4 different data sizes 
+and two sorting options from the ascending, random 
+and ascending we were provided to use. For my first 
+test I used the executable line -> '10 ba', 
+this produced an execution time of roughly 2 seconds. 
+the next test was -> '100 bd', which produced a much different 
+execution time to the one prior which I was not expecting 
+as I thought it would produce a slightly longer run time. 
+the next test was -> '1000 br', this test ran in about 
+0.17 seconds which was just slighlty longer than the first 
+test but still faster than the first. The last test was -> '10000 bn', 
+this produced a run time just under 10 seconds. I'm sure the 
+reason for this time is solely due to the massive data 
+size given to it to sort through. With greater data sizes, 
+the times for each test would increase exponentially resulting 
+in slower execution time for the whole program. Hardware is also
+a factor that affects the execution time of these tests.
+
+Bubble Sort
+ Sorting Option | Data Size | Time (s) |
+     BA         |     10    |     2.041
+     BD         |    100    |     0.010
+     BR         |    1000   |     0.173
+     BN         |   10000   |     9.843
+
+Insertion Sort
+Sorting Option | Data Size | Time (s)
+     IA     |     10    |    2.281
+     IR     |     100   |    0.008
+     ID     |    1000   |    0.165
+    IN      |   10000   |     1
+
+Selection Sort
+Sorting Option | Data Size | Time (s)
+     SA     |    10    |    1.133
+     SR     |   100    |    0.008
+     SD     |   1000   |    0.104
+     SN     |   10000  |  
